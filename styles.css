@@ -1,0 +1,179 @@
+:root{
+    font-family: sans-serif;
+}
+
+
+
+body{
+    margin: 0;
+    font-size:13px; 
+}
+
+ul{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+
+.menu ul li{
+    height: 24px;
+    padding: 10px 15px;
+    line-height: normal;
+}
+
+.menu ul li:last-child{
+    padding: 5px;
+}
+
+i.fa-th{
+    font-size: 20px;
+    color: #5f6368;
+}
+
+
+.sesion-button{
+    font-weight: bold;
+    background: #4285f4;
+    color: #fff;
+    padding: 5px 12px;
+    border: 1px solid #4285f4;
+    outline: none;
+    height: 30px;
+}
+
+.searcher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+
+.search{
+    text-align: center;
+}
+
+.search-bar{
+    height: 46px;
+    width: 548px;
+    display: flex;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.search-bar:hover{
+    box-shadow: -0.5px 1px 1px 1px rgba(0,0,0,.10);
+
+}
+
+
+.search-icon{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+}
+
+.search-text{
+    height: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+.microphone{
+    height: 24px;
+    width: 24px;
+    padding: 15px;
+}
+
+
+.buttons-section{
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.button-search{
+    font-family: Arial, sans-serif;
+    color: #5F6368;
+    font-size: 14px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-search input{
+    border: 0;
+    color: #5F6368;
+}
+
+
+
+
+
+.footer-section{
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 14px;
+    max-height: 81px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu ul{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.second-menu-part{
+    padding-right: 40px;
+}
+
+.country{
+    padding: 8px 50px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+
+.country p{
+    margin: 0;
+    color: rgba(0,0,0,.54);
+}
+
+hr{
+    height: 0.01px;
+    border: 0.1px solid rgba(0,0,0,.05);
+}
+
+.footer-menu ul  li{
+    color: #5f6368;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.footer-menu ul li:nth-child(5){
+    color: red;
+}
